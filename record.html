@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <title>Role Play</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css'>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/vet.css">
+</head>
+
+<style>
+    .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+    }
+</style>
+
+<body>
+
+<header>
+    <div class="collapse navbar-expand-lg bg-dark" id="navbarHeader">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-8 col-md-7 py-4">
+                    <h4 class="text-white">Information</h4>
+                    <p class="text-muted">Для тех кому интересны настольные игры, кому нравиться живое общение в компании за чашечкой чая или кофе.
+                    </p>
+                </div>
+                <div class="col-sm-4 offset-md-1 py-4">
+                    <h4 class="text-white">Contact</h4>
+                    <ul class="list-unstyled">
+                        <li class="nav-item">
+                            <a class="nav-link disabled" href="#">Phone: +79290037859</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Email: iperesypkina@mail.ru</a>
+                        </li>
+                        <div id="light">
+                            <ul class="btn-list rounded">
+                                <li><a href="" class="btn-gradient rounded instagram"><i class="fa fa-instagram"></i></a></li>
+                                <li><a href="" class="btn-gradient rounded vk"><i class="fa fa-vk"></i></a></li>
+                            </ul>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="navbar navbar-dark bg-dark shadow-sm">
+        <div class="container d-flex justify-content-between">
+            <a class="navbar-brand" href="#">
+                <img src="Image/logo.png" height="50" width="100" class="d-inline-block align-top" alt=""/>
+                RolePlay
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+    </div>
+</header>
+<main class="bg-light">
+<div class="container">
+    <div class="py-5 text-center">
+        <img class="d-block mx-auto mb-4" src="Image/logo.png" alt="" width="250" height="150">
+        <h2>Запись на игру</h2>
+        <p class="lead">Below is an example form built entirely with Bootstrap’s form controls. Each required form group has a validation state that can be triggered by attempting to submit the form without completing it.</p>
+    </div>
+
+    <div class="row">
+        <div class="col-md-4 order-md-2 mb-4">
+            <h4 class="d-flex justify-content-between align-items-center mb-3">
+                <!--(span)Контейнер для строчных элементов. Можно использовать для форматирования отрывков текста, например, выделения цветом отдельных слов.-->
+                <span class="text-muted">Ближайшие дни провождения</span>
+            </h4>
+            <!--Здесь будет календарь-->
+        </div>
+        <div class="col-md-8 order-md-1">
+            <form>
+                <div class="form-group">
+                    <div class="row">
+                        <div class="col">
+                            <label for="firstname">Имя*</label>
+                            <input type="text" class="form-control" id="firstname" required="required">
+                            <div class="invalid-feedback">
+                                Требуется действительное имя.
+                            </div>
+                        </div>
+                        <div class="col">
+                            <label for="lastName">Фамилия*</label>
+                            <input type="text" class="form-control" id="lastName" required="required">
+                            <div class="invalid-feedback">
+                                Требуется действительная фамилия.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputEmail1">E-mail</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1">
+                    <div class="invalid-feedback">
+                        Пожалуйста, введите действительный адрес электронной почты для доставки оповещений.
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="phonenumber">Номер телефона*</label>
+                    <input type="text" class="form-control" id="phonenumber" required="required">
+                    <div class="invalid-feedback">
+                        Пожалуйста, введите свой номер телефона.
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="row">
+                        <div class="col">
+                            <label for="exampleFormControlSelect1">Компания*</label>
+                            <select class="form-control" id="exampleFormControlSelect1" required="required" >
+                                <option value="">Выбрать...</option>
+                                <option>Эсвас</option>
+                                <option>Пустоши</option>
+                                <option>S.T.A.L.K.E.R.</option>
+                            </select>
+                            <div class="invalid-feedback">
+                                Пожалуйста, выберите компанию.
+                            </div>
+                        </div>
+                        <div class="col">
+                            <label for="exampleFormControlSelect2">Сюжет*</label>
+                            <select class="form-control" id="exampleFormControlSelect2" required="required" >
+                                <option value="">Выбрать...</option>
+                                <option>Сюжет 1</option>
+                                <option>Сюжет 2</option>
+                                <option>Сюжет 3</option>
+                            </select>
+                            <div class="invalid-feedback">
+                                Пожалуйста, выберите сюжет.
+                            </div>
+                        </div>
+                        <div class="col">
+                            <label for="exampleFormControlSelect3">Сессия*</label>
+                            <select class="form-control" id="exampleFormControlSelect3" required="required" >
+                                <option value="">Выбрать...</option>
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                            </select>
+                            <small>что то там важное для новичка</small>
+                            <div class="invalid-feedback">
+                                Пожалуйста, выберите сессию.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="message" class="form-label">Ваше сообщение для нас</label>
+                    <textarea rows="4" name="message" id="message" class="form-control" style="margin-top: 0px; margin-bottom: 0px; height: 105px;"></textarea>
+                </div>
+
+                <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="same-address">
+                    <label class="custom-control-label" for="same-address">Типа да я разрешаю присылать мне сообщения на почту иномер телефона</label>
+                </div>
+
+                <hr class="mb-4">
+
+                <h4 class="mb-3">Оплата</h4>
+
+                <div class="d-block my-3">
+                    <div class="custom-control custom-radio">
+                        <input id="credit" name="paymentMethod" type="radio" class="custom-control-input" checked required>
+                        <label class="custom-control-label" for="credit">Credit card</label>
+                    </div>
+                    <div class="custom-control custom-radio">
+                        <input id="debit" name="paymentMethod" type="radio" class="custom-control-input" required>
+                        <label class="custom-control-label" for="debit">Debit card</label>
+                    </div>
+                    <div class="custom-control custom-radio">
+                        <input id="paypal" name="paymentMethod" type="radio" class="custom-control-input" required>
+                        <label class="custom-control-label" for="paypal">PayPal</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+                        <label for="cc-name">Имя и фамилия владельца карты</label>
+                        <input type="text" class="form-control" id="cc-name" placeholder="ЛАТИНЕЦЕЙ" required>
+                        <div class="invalid-feedback">
+                            Имя на карте обязательно
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <label for="cc-number">Номер карты</label>
+                        <input type="text" class="form-control" id="cc-number" placeholder="XXXX XXXX XXXX XXXX" required>
+                        <div class="invalid-feedback">
+                            Требуется номер кредитной карты
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-3 mb-3">
+                        <label for="cc-expiration1" for="cc-expiration2">Срок действия</label>
+                        <div class="row">
+                            <div class="col">
+                                <input type="text" class="form-control" style="width: 50px" id="cc-expiration1" placeholder="01" required>
+                            </div>
+                            <a>/</a>
+                            <div class="col">
+                                <input type="text" class="form-control" style="width: 50px" id="cc-expiration2" placeholder="20" required>
+                            </div>
+                        </div>
+                        <div class="invalid-feedback">
+                            Требуется срок действия
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-3">
+                        <label for="cc-cvv">CVC/CVV</label>
+                        <input type="text" class="form-control" id="cc-cvv" placeholder="123" required>
+                        <div class="invalid-feedback">
+                            Требуется секретный код
+                        </div>
+                    </div>
+                </div>
+                <hr class="mb-4">
+                <button class="btn btn-primary bg-dark btn-block" type="submit" style="margin-bottom: 100px">Continue to checkout</button>
+            </form>
+        </div>
+    </div>
+</div>
+    <div id="scrollTop" style="display: block;"><i class="fa fa-long-arrow-alt-up"></i></div>
+</main>
+
+<footer>
+    <p class="mb-md-0">© 2019 Company, Inc.</p>
+</footer>
+
+</body>
+</html>
