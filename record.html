@@ -9,70 +9,88 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
     <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css'>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/vet.css">
-</head>
+    <link rel='stylesheet' id='dokan-theme-skin-css'  href='https://themes.getbootstrap.com/wp-content/themes/dokan/assets/css/skins/purple.css' type='text/css' media='all' />
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <!--МОЙ ЦСС-->
+    <link rel="stylesheet" href="css/rp.css">
+    <!--КАЛЕНДАРЬ-->
+    <link rel="stylesheet" href="cssCalendar/calendar.css">
+    <link rel="stylesheet" href="cssCalendar/custom_1.css">
+    <link rel="stylesheet" href="cssCalendar/custom_2.css">
+    <link rel="stylesheet" href="cssCalendar/demo.css">
 
-<style>
-    .bd-placeholder-img {
-        font-size: 1.125rem;
-        text-anchor: middle;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        -ms-user-select: none;
-        user-select: none;
-    }
-</style>
+</head>
 
 <body>
 
-<header>
-    <div class="collapse navbar-expand-lg bg-dark" id="navbarHeader">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-8 col-md-7 py-4">
-                    <h4 class="text-white">Information</h4>
-                    <p class="text-muted">Для тех кому интересны настольные игры, кому нравиться живое общение в компании за чашечкой чая или кофе.
-                    </p>
-                </div>
-                <div class="col-sm-4 offset-md-1 py-4">
-                    <h4 class="text-white">Contact</h4>
-                    <ul class="list-unstyled">
-                        <li class="nav-item">
-                            <a class="nav-link disabled" href="#">Phone: +79290037859</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Email: iperesypkina@mail.ru</a>
-                        </li>
-                        <div id="light">
-                            <ul class="btn-list rounded">
-                                <li><a href="" class="btn-gradient rounded instagram"><i class="fa fa-instagram"></i></a></li>
-                                <li><a href="" class="btn-gradient rounded vk"><i class="fa fa-vk"></i></a></li>
+<header class="header header-dark header-sticky">
+    <div class="container">
+        <div class="row">
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <img src="Image/logo44.png" height="30" width="160" class="d-inline-block align-top" alt=""/>
+                <!--<a href="index.html" class="navbar-brand order-1 order-lg-2"><img src="assets/images/logo.svg" alt="Logo"></a>-->
+                <button class="navbar-toggler order-2 collapsed" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse order-3 order-lg-1 collapse item-navbar-collapse" id="navbarMenu" >
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle " href="#!" id="navbarDropdown-11" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Эсвас
+                            </a>
+                            <ul class="dropdown-menu " aria-labelledby="navbarDropdown-11">
+                                <li><a class="dropdown-item" href="index-minimal.html">Home - classic</a></li>
+                                <li><a class="dropdown-item" href="index-minimal.html">Home - carousel</a></li>
+                                <li><a class="dropdown-item" href="index-minimal.html">Home - categories</a></li>
+                                <li><a class="dropdown-item" href="index-minimal.html">Home - modern</a></li>
+                                <li><a class="dropdown-item" href="index-minimal.html">Home - minimal</a></li>
                             </ul>
-                        </div>
+                        </li>
+                        <li class="nav-item dropdown item-nav-link">
+                            <a class="nav-link dropdown-toggle " href="#!" id="navbarDropdown-12" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >
+                                Пустоши
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown-12">
+                                <li><a class="dropdown-item" href="index-minimal.html">Home - classic</a></li>
+                                <li><a class="dropdown-item" href="index-minimal.html">Home - carousel</a></li>
+                                <li><a class="dropdown-item" href="index-minimal.html">Home - categories</a></li>
+                                <li><a class="dropdown-item" href="index-minimal.html">Home - modern</a></li>
+                                <li><a class="dropdown-item" href="index-minimal.html">Home - minimal</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown item-nav-link">
+                            <a class="nav-link dropdown-toggle" href="#!" id="navbarDropdown-13" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                S.T.A.L.K.E.R.
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown-13">
+                                <li><a class="dropdown-item" href="index-minimal.html">Home - classic</a></li>
+                                <li><a class="dropdown-item" href="index-minimal.html">Home - carousel</a></li>
+                                <li><a class="dropdown-item" href="index-minimal.html">Home - categories</a></li>
+                                <li><a class="dropdown-item" href="index-minimal.html">Home - modern</a></li>
+                                <li><a class="dropdown-item" href="index-minimal.html">Home - minimal</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item item-nav-link">
+                            <a class="nav-link" href="documentation/index.html">
+                                Запись
+                            </a>
+                        </li>
+
                     </ul>
                 </div>
-            </div>
-        </div>
-    </div>
-    <div class="navbar navbar-dark bg-dark shadow-sm">
-        <div class="container d-flex justify-content-between">
-            <a class="navbar-brand" href="#">
-                <img src="Image/logo.png" height="50" width="100" class="d-inline-block align-top" alt=""/>
-                RolePlay
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+            </nav>
         </div>
     </div>
 </header>
+
 <main class="bg-light">
 <div class="container">
     <div class="py-5 text-center">
-        <img class="d-block mx-auto mb-4" src="Image/logo.png" alt="" width="250" height="150">
-        <h2>Запись на игру</h2>
-        <p class="lead">Below is an example form built entirely with Bootstrap’s form controls. Each required form group has a validation state that can be triggered by attempting to submit the form without completing it.</p>
+        <h2 style="margin-top: 100px">Записаться на игру</h2>
+        <p class="lead" >Below is an example form built entirely with Bootstrap’s form controls. Each required form group has a validation state that can be triggered by attempting to submit the form without completing it.</p>
     </div>
+     <!--полосочка-->
+    <hr style="border-bottom: 2px solid #555;">
 
     <div class="row">
         <div class="col-md-4 order-md-2 mb-4">
@@ -80,10 +98,177 @@
                 <!--(span)Контейнер для строчных элементов. Можно использовать для форматирования отрывков текста, например, выделения цветом отдельных слов.-->
                 <span class="text-muted">Ближайшие дни провождения</span>
             </h4>
-            <!--Здесь будет календарь-->
+            <!--календарь-->
+            <section class="main">
+                <div class="custom-calendar-wrap">
+                    <div id="custom-inner" class="custom-inner">
+                        <div class="custom-header clearfix">
+                            <nav>
+                                <span id="custom-prev" class="custom-prev"></span>
+                                <span id="custom-next" class="custom-next"></span>
+                            </nav>
+                            <h2 id="custom-month" class="custom-month">October</h2>
+                            <h3 id="custom-year" class="custom-year">2019</h3>
+                        </div>
+                        <div id="calendar" class="fc-calendar-container">
+                            <div class="fc-calendar fc-five-rows">
+                                <div class="fc-head">
+                                    <div>Mon</div>
+                                    <div>Tue</div>
+                                    <div>Wed</div>
+                                    <div>Thu</div>
+                                    <div>Fri</div>
+                                    <div>Sat</div>
+                                    <div>Sun</div>
+                                </div>
+                                <div class="fc-body">
+                                    <div class="fc-row"><div></div>
+                                        <div>
+                                            <span class="fc-date">1</span>
+                                            <span class="fc-weekday">Tue</span>
+                                        </div>
+                                        <div>
+                                            <span class="fc-date">2</span>
+                                            <span class="fc-weekday">Wed</span>
+                                        </div>
+                                        <div>
+                                            <span class="fc-date">3</span>
+                                            <span class="fc-weekday">Thu</span>
+                                        </div>
+                                        <div>
+                                            <span class="fc-date">4</span>
+                                            <span class="fc-weekday">Fri</span>
+                                        </div>
+                                        <div>
+                                            <span class="fc-date">5</span>
+                                            <span class="fc-weekday">Sat</span>
+                                        </div>
+                                        <div>
+                                            <span class="fc-date">6</span>
+                                            <span class="fc-weekday">Sun</span>
+                                        </div>
+                                    </div>
+                                    <div class="fc-row">
+                                        <div>
+                                            <span class="fc-date">7</span>
+                                            <span class="fc-weekday">Mon</span>
+                                        </div>
+                                        <div>
+                                            <span class="fc-date">8</span>
+                                            <span class="fc-weekday">Tue</span>
+                                        </div>
+                                        <div>
+                                            <span class="fc-date">9</span>
+                                            <span class="fc-weekday">Wed</span>
+                                        </div>
+                                        <div>
+                                            <span class="fc-date">10</span>
+                                            <span class="fc-weekday">Thu</span>
+                                        </div>
+                                        <div>
+                                            <span class="fc-date">11</span>
+                                            <span class="fc-weekday">Fri</span>
+                                        </div>
+                                        <div>
+                                            <span class="fc-date">12</span>
+                                            <span class="fc-weekday">Sat</span>
+                                        </div>
+                                        <div>
+                                            <span class="fc-date">13</span>
+                                            <span class="fc-weekday">Sun</span>
+                                        </div>
+                                    </div>
+                                    <div class="fc-row">
+                                        <div>
+                                            <span class="fc-date">14</span>
+                                            <span class="fc-weekday">Mon</span>
+                                        </div>
+                                        <div>
+                                            <span class="fc-date">15</span>
+                                            <span class="fc-weekday">Tue</span>
+                                        </div>
+                                        <div>
+                                            <span class="fc-date">16</span>
+                                            <span class="fc-weekday">Wed</span>
+                                        </div>
+                                        <div>
+                                            <span class="fc-date">17</span>
+                                            <span class="fc-weekday">Thu</span>
+                                        </div>
+                                        <div>
+                                            <span class="fc-date">18</span>
+                                            <span class="fc-weekday">Fri</span>
+                                        </div>
+                                        <div>
+                                            <span class="fc-date">19</span>
+                                            <span class="fc-weekday">Sat</span>
+                                        </div>
+                                        <div>
+                                            <span class="fc-date">20</span>
+                                            <span class="fc-weekday">Sun</span>
+                                        </div>
+                                    </div>
+                                    <div class="fc-row">
+                                        <div>
+                                            <span class="fc-date">21</span>
+                                            <span class="fc-weekday">Mon</span>
+                                        </div>
+                                        <div>
+                                            <span class="fc-date">22</span>
+                                            <span class="fc-weekday">Tue</span>
+                                        </div>
+                                        <div class="fc-today ">
+                                            <span class="fc-date">23</span>
+                                            <span class="fc-weekday">Wed</span>
+                                        </div>
+                                        <div>
+                                            <span class="fc-date">24</span>
+                                            <span class="fc-weekday">Thu</span>
+                                        </div>
+                                        <div>
+                                            <span class="fc-date">25</span>
+                                            <span class="fc-weekday">Fri</span>
+                                        </div>
+                                        <div>
+                                            <span class="fc-date">26</span>
+                                            <span class="fc-weekday">Sat</span>
+                                        </div>
+                                        <div>
+                                            <span class="fc-date">27</span>
+                                            <span class="fc-weekday">Sun</span>
+                                        </div>
+                                    </div>
+                                    <div class="fc-row">
+                                        <div>
+                                            <span class="fc-date">28</span>
+                                            <span class="fc-weekday">Mon</span>
+                                        </div>
+                                        <div>
+                                            <span class="fc-date">29</span>
+                                            <span class="fc-weekday">Tue</span>
+                                        </div>
+                                        <div>
+                                            <span class="fc-date">30</span>
+                                            <span class="fc-weekday">Wed</span>
+                                        </div>
+                                        <div>
+                                            <span class="fc-date">31</span>
+                                            <span class="fc-weekday">Thu</span>
+                                        </div>
+                                        <div></div>
+                                        <div></div>
+                                        <div></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!---->
         </div>
         <div class="col-md-8 order-md-1">
-            <form>
+            <form style="margin-bottom: 50px">
                 <div class="form-group">
                     <div class="row">
                         <div class="col">
@@ -196,7 +381,7 @@
                     </div>
                     <div class="col-md-6 mb-3">
                         <label for="cc-number">Номер карты</label>
-                        <input type="text" class="form-control" id="cc-number" placeholder="XXXX XXXX XXXX XXXX" required>
+                        <input type="text" class="form-control" id="cc-number" placeholder="XXXX XXXX XXXX XXXX" required pattern="\d{4} \d{4} \d{4} \d{4}">
                         <div class="invalid-feedback">
                             Требуется номер кредитной карты
                         </div>
@@ -207,11 +392,11 @@
                         <label for="cc-expiration1" for="cc-expiration2">Срок действия</label>
                         <div class="row">
                             <div class="col">
-                                <input type="text" class="form-control" style="width: 50px" id="cc-expiration1" placeholder="01" required>
+                                <input type="number" class="form-control" style="width: 50px" id="cc-expiration1" placeholder="01" required pattern="\d{2}">
                             </div>
                             <a>/</a>
                             <div class="col">
-                                <input type="text" class="form-control" style="width: 50px" id="cc-expiration2" placeholder="20" required>
+                                <input type="number" class="form-control" style="width: 50px" id="cc-expiration2" placeholder="20" required pattern="\d{2}">
                             </div>
                         </div>
                         <div class="invalid-feedback">
@@ -220,23 +405,30 @@
                     </div>
                     <div class="col-md-3 mb-3">
                         <label for="cc-cvv">CVC/CVV</label>
-                        <input type="text" class="form-control" id="cc-cvv" placeholder="123" required>
+                        <input type="number" class="form-control" id="cc-cvv" placeholder="123" required pattern="\d{3}">
                         <div class="invalid-feedback">
                             Требуется секретный код
                         </div>
                     </div>
                 </div>
                 <hr class="mb-4">
-                <button class="btn btn-primary bg-dark btn-block" type="submit" style="margin-bottom: 100px">Continue to checkout</button>
+                <button class="btn btn-secondary" >Continue to checkout</button>
             </form>
         </div>
     </div>
 </div>
-    <div id="scrollTop" style="display: block;"><i class="fa fa-long-arrow-alt-up"></i></div>
 </main>
 
-<footer>
-    <p class="mb-md-0">© 2019 Company, Inc.</p>
+<footer class="footer_wrap">
+    <div class="sns_area">
+        <ul class="socialIcons">
+            <li><a class="vk" href="#"><i class="fa fa-vk"></i></a></li>
+            <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+            <li><a class="instagram" href="#"><i class="fa fa-instagram"></i></a></li>
+            <li><a class="google" href="#"><i class="fa fa-google"></i></a></li>
+        </ul>
+    </div>
+    <p class="text-center" style="margin-top: 30px; margin-bottom: 0">© 2019 Company, Inc.</p>
 </footer>
 
 </body>
