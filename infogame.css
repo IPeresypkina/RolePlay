@@ -1,0 +1,566 @@
+section.feature_wrap {
+    position: relative;
+}
+
+section.feature_wrap .label_title {
+    display: block;
+    margin-bottom: 15px;
+    font-size: 24px;
+    color: #ccac9d;
+    font-weight: normal;
+}
+section.feature_wrap .label_title em {
+    font-family: 'Batang';
+}
+section.feature_wrap h2 {
+    font-size: 42px;
+    color: #e1dedb;
+    font-weight: normal;
+    font-family: "NotoSansMedium", sans-serif;
+}
+
+@keyframes characterOpacity {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+section.feature_wrap.second {
+    position: relative;
+    height: 1200px;
+    box-sizing: border-box;
+    background: url(gameInfo/feature_section02.jpg) 50% 0 no-repeat;
+    background-size: cover;
+}
+section.feature_wrap.second .label_title {
+    margin-bottom: 12px;
+    padding-top: 100px;
+    text-align: center;
+}
+section.feature_wrap.second h2 {
+    margin-bottom: 50px;
+    text-align: center;
+}
+section.feature_wrap.second .hisoty_wrap {
+    position: relative;
+    max-width: 1458px;
+    margin: 0 auto 0 auto;
+}
+section.feature_wrap.second .hisoty_wrap .tab_nav_area {
+    position: relative;
+    z-index: 10;
+    padding-left: 121px;
+    box-sizing: border-box;
+}
+section.feature_wrap.second .hisoty_wrap .tab_history {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: -moz-flex;
+    display: -o-flex;
+    display: flex;
+    -webkit-align-items: center;
+    -ms-align-items: center;
+    -moz-align-items: center;
+    -o-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    -ms-justify-content: center;
+    -moz-justify-content: center;
+    -o-justify-content: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    justify-content: flex-start;
+    align-items: flex-start;
+    max-width: 1250px;
+}
+section.feature_wrap.second .hisoty_wrap .tab_history:after {
+    display: block;
+    content: '';
+    height: 0;
+    font-size: 0;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    clear: both;
+}
+section.feature_wrap.second .hisoty_wrap .tab_history li {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: -moz-flex;
+    display: -o-flex;
+    display: flex;
+    -webkit-align-items: center;
+    -ms-align-items: center;
+    -moz-align-items: center;
+    -o-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    -ms-justify-content: center;
+    -moz-justify-content: center;
+    -o-justify-content: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    width: 100%;
+    border-top: 1px solid rgba(194, 194, 194, 0.2);
+}
+section.feature_wrap.second .hisoty_wrap .tab_history li a {
+    display: flex;
+    min-height:80px;
+    align-items:center;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: normal;
+    box-sizing: border-box;
+    text-align: center;
+}
+section.feature_wrap.second .hisoty_wrap .tab_history li.active,
+section.feature_wrap.second .hisoty_wrap .tab_history li:hover {
+    border-top: 1px solid #ae8973;
+}
+section.feature_wrap.second .hisoty_wrap .tab_history li.active a,
+section.feature_wrap.second .hisoty_wrap .tab_history li:hover a {
+    color: #ae8d67;
+}
+section.feature_wrap.second {
+    overflow: hidden;
+}
+section.feature_wrap.second .hisoty_wrap .tab_cont {
+    display: none;
+}
+section.feature_wrap.second .hisoty_wrap .tab_cont.active {
+    display: block;
+}
+section.feature_wrap.second .hisoty_wrap .box_history {
+    position: relative;
+    max-width: 1458px;
+    height: 738px;
+    box-sizing: border-box;
+    margin-top: -18px;
+    padding: 73px 0 0 29px;
+}
+section.feature_wrap.second .hisoty_wrap .box_history strong.title {
+    display: block;
+    text-align: center;
+    font-size: 38px;
+    color: #000;
+    font-weight: normal;
+    box-sizing: border-box;
+    font-family: "NotoSansMedium", sans-serif;
+}
+section.feature_wrap.second .hisoty_wrap .box_history strong.sub_title {
+    display: block;
+    font-size: 18px !important;
+    color: #000;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+section.feature_wrap.second .hisoty_wrap .box_history .inner {
+    position: relative;
+    max-width: 1150px;
+    margin: 0 auto 0 auto;
+    box-sizing: border-box;
+}
+section.feature_wrap.second .hisoty_wrap .box_history .inner .text_area {
+    margin-top: 48px;
+    padding-right: 40px;
+    font-size: 15px;
+    color: #000;
+    font-weight: normal;
+    line-height: 1.7;
+    height: 500px;
+    box-sizing: border-box;
+    overflow-y: auto;
+}
+
+section.feature_wrap.second .hisoty_wrap .box_history .inner .text_area::-webkit-scrollbar-button:decrement,
+section.feature_wrap.second .hisoty_wrap .box_history .inner .text_area::-webkit-scrollbar-button:end:increment {
+    display: block;
+    height: 10px;
+    background-color: transparent;
+}
+section.feature_wrap.second .hisoty_wrap .box_history .inner .text_area::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+section.feature_wrap.second .hisoty_wrap .box_history .inner .text_area::-webkit-scrollbar-thumb {
+    height: 50px;
+    width: 11px;
+    background: #4e2f2d;
+    -wekbkit-border-radius: 11px;
+    border-radius: 11px;
+    -webkit-box-shadow: inset 0 0 4px rgba(0, 0, 0, 0.1);
+}
+section.feature_wrap.second .hisoty_wrap .box_history .inner .text_area:after {
+    display: block;
+    content: '';
+    height: 0;
+    font-size: 0;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    clear: both;
+}
+section.feature_wrap.second .hisoty_wrap .box_history .inner .text_area .paragraph:after {
+    display: block;
+    content: '';
+    height: 0;
+    font-size: 0;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    clear: both;
+}
+section.feature_wrap.second .hisoty_wrap .box_history .inner .text_area strong.year_title {
+    display: block;
+    font-size: 19px;
+    color: #512c13;
+    font-weight: bold;
+    margin: 30px 0 10px 0;
+    line-height: 1;
+}
+section.feature_wrap.second .hisoty_wrap .box_history .inner .text_area .img_area {
+    float: right;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+section.feature_wrap.second .hisoty_wrap .box_history .inner .text_area .img_area.align_left {
+    float: left;
+    margin-left: 0;
+    margin-right: 30px;
+}
+section.feature_wrap.second {
+    overflow: hidden;
+}
+section.feature_wrap.second .hisoty_wrap .history_world .text_area {
+    text-align: center;
+}
+section.feature_wrap.second .hisoty_wrap .history_world .inner .text_area {
+    height: 184px;
+    box-sizing: border-box;
+}
+section.feature_wrap.second .hisoty_wrap .history_world .text_area strong {
+    display: block;
+    margin-top: 15px;
+    font-size: 18px;
+    color: #000;
+    font-weight: bold;
+}
+section.feature_wrap.second .hisoty_wrap .history_world {
+    background: url(gameInfo/history_bg02.png) 50% 0 no-repeat;
+}
+section.feature_wrap.second .hisoty_wrap .box_calpheon {
+    background: url(gameInfo/history_bg02.png) 50% 0 no-repeat;
+}
+section.feature_wrap.second .hisoty_wrap .box_serendia {
+    background: url(gameInfo/history_bg02.png) 50% 0 no-repeat;
+}
+section.feature_wrap.second .hisoty_wrap .box_mediah {
+    background: url(gameInfo/history_bg02.png) 50% 0 no-repeat;
+}
+section.feature_wrap.second .hisoty_wrap .box_valencia {
+    background: url(gameInfo/history_bg02.png) 50% 0 no-repeat;
+}
+section.feature_wrap.second .hisoty_wrap .box_kamasylvia {
+    background: url(gameInfo/history_bg02.png) 50% 0 no-repeat;
+}
+section.feature_wrap.second .hisoty_wrap .box_drieghan {
+    background: url(gameInfo/history_bg02.png) 50% 0 no-repeat;
+}
+section.feature_wrap.third {
+    height: 920px;
+    box-sizing: border-box;
+    background: #161b28;
+}
+section.feature_wrap.third .label_title {
+    position: absolute;
+    top: 140px;
+    z-index: 25;
+    width: 100%;
+    text-align: center;
+    color: #767676;
+}
+section.feature_wrap.third h2 {
+    position: absolute;
+    top: 180px;
+    z-index: 25;
+    width: 100%;
+    text-align: center;
+    color: #e1dedb;
+}
+
+
+
+@media screen and (max-width: 1400px) {
+    section.feature_wrap.second .hisoty_wrap .tab_history {
+        margin: 0 auto;
+    }
+    section.feature_wrap.second .hisoty_wrap .tab_nav_area {
+        padding-left: 0;
+    }
+    section.feature_wrap.second .hisoty_wrap .box_history {
+        padding-right: 20px;
+    }
+}
+/*
+@media screen and (max-width: 1024px) {
+
+    section.feature_wrap.second {
+        padding: 0 1.25rem;
+        height: auto;
+        min-height: 71.083rem;
+        background-image: url(../../img/portal/gameinfo/m_feature_section02.jpg);
+        background-size: cover;
+    }
+    section.feature_wrap.second .label_title {
+        font-size: 1.25rem;
+        padding-top: 4.166rem;
+    }
+    section.feature_wrap.second h2 {
+        font-size: 1.875rem;
+        margin-bottom: 2.916rem;
+    }
+    section.feature_wrap.second .hisoty_wrap {
+        width: auto;
+        padding-bottom: 1.666rem;
+    }
+    section.feature_wrap.second .hisoty_wrap .tab_nav_area {
+        padding-left: 0;
+        margin-bottom: 1.666rem;
+    }
+    section.feature_wrap.second .hisoty_wrap .tab_cont:after {
+        display: block;
+        content: '';
+        height: 3.9166rem;
+        background: url(../../img/portal/gameinfo/m_history_label_bg.png) no-repeat 50% 0;
+        background-size: contain;
+    }
+    section.feature_wrap.second .hisoty_wrap .tab_history {
+        width: auto;
+        flex-wrap: wrap;
+        align-items: stretch;
+    }
+    section.feature_wrap.second .hisoty_wrap .tab_history li {
+        width: 50%;
+        height: 2.916rem;
+        box-sizing: border-box;
+        position: relative;
+    }
+    section.feature_wrap.second .hisoty_wrap .tab_history li a {
+        font-size: 0.9583rem;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+        display: -webkit-box;
+        display: -moz-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: -moz-flex;
+        display: -o-flex;
+        display: flex;
+        -webkit-align-items: center;
+        -ms-align-items: center;
+        -moz-align-items: center;
+        -o-align-items: center;
+        align-items: center;
+        -webkit-justify-content: center;
+        -ms-justify-content: center;
+        -moz-justify-content: center;
+        -o-justify-content: center;
+        justify-content: center;
+        -ms-flex-align: center;
+        position: relative;
+    }
+    section.feature_wrap.second .hisoty_wrap .tab_history li:nth-child(2n) a:before {
+        display: block;
+        content: '';
+        width: 0.08333rem;
+        height: 1.25rem;
+        background: rgba(255, 255, 255, 0.2);
+        position: absolute;
+        top: 50%;
+        left: 0;
+        transform: translate(0, -50%);
+    }
+    section.feature_wrap.second .hisoty_wrap .box_history {
+        position: relative;
+        width: 100%;
+        height: 45rem;
+        box-sizing: border-box;
+        background-size: cover;
+        margin-top: 0;
+        padding: 3.33rem 1.66rem 6.25rem;
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #e4e4e4), color-stop(1, #dddddd));
+        background: -moz-linear-gradient(top, #e4e4e4 0, #dddddd 100%);
+        background: -webkit-linear-gradient(top, #e4e4e4 0, #dddddd 100%);
+        background: -o-linear-gradient(top, #e4e4e4 0, #dddddd 100%);
+        background: -ms-linear-gradient(top, #e4e4e4 0, #dddddd 100%);
+        background: linear-gradient(top, #e4e4e4 0, #dddddd 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='@start', endColorstr='@end', gradientType=0);
+    }
+    section.feature_wrap.second .hisoty_wrap .box_history:before {
+        display: block;
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 0;
+        right: 0;
+        height: 7.5rem;
+        background-size: auto 7.5rem;
+        background-position: 50% 0;
+        background-repeat: no-repeat;
+    }
+    section.feature_wrap.second .hisoty_wrap .history_world {
+        background-color: #f0f0f0;
+        background-image: url(../../img/portal/gameinfo/m_history_bg01.png);
+        background-size: auto 20.08333rem;
+        background-position: 50% 100%;
+        background-repeat: no-repeat;
+    }
+    section.feature_wrap.second .hisoty_wrap .history_world:before {
+        display: block;
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 10rem;
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #e4e4e4), color-stop(1, #f0f0f0));
+        background: -moz-linear-gradient(top, #e4e4e4 0, #f0f0f0 100%);
+        background: -webkit-linear-gradient(top, #e4e4e4 0, #f0f0f0 100%);
+        background: -o-linear-gradient(top, #e4e4e4 0, #f0f0f0 100%);
+        background: -ms-linear-gradient(top, #e4e4e4 0, #f0f0f0 100%);
+        background: linear-gradient(top, #e4e4e4 0, #f0f0f0 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='@start', endColorstr='@end', gradientType=0);
+    }
+    section.feature_wrap.second .hisoty_wrap .box_calpheon:before {
+        background-image: url(../../img/portal/gameinfo/m_history_symbol02.png);
+    }
+    section.feature_wrap.second .hisoty_wrap .box_serendia:before {
+        background-image: url(../../img/portal/gameinfo/m_history_symbol03.png);
+    }
+    section.feature_wrap.second .hisoty_wrap .box_mediah:before {
+        background-image: url(../../img/portal/gameinfo/m_history_symbol04.png);
+    }
+    section.feature_wrap.second .hisoty_wrap .box_valencia:before {
+        background-image: url(../../img/portal/gameinfo/m_history_symbol05.png);
+    }
+    section.feature_wrap.second .hisoty_wrap .box_kamasylvia:before {
+        background-image: url(../../img/portal/gameinfo/m_history_symbol06.png);
+    }
+    section.feature_wrap.second .hisoty_wrap .box_drieghan:before {
+        background-image: url(../../img/portal/gameinfo/m_history_symbol07.png);
+    }
+    section.feature_wrap.second .hisoty_wrap .box_history .inner {
+        width: 100%;
+    }
+    section.feature_wrap.second .hisoty_wrap .box_history .inner .text_area {
+        margin-top: 2.5rem;
+        font-size: 0.875rem;
+        padding-right: 1.25rem;
+        height: 35rem;
+    }
+    section.feature_wrap.second .hisoty_wrap .box_history .inner .text_area .img_area {
+        float: none;
+        margin: 0.625rem 0 0.625rem;
+    }
+    section.feature_wrap.second .hisoty_wrap .box_history .inner .text_area .img_area.align_left {
+        float: none;
+        margin: 0.625rem 0 0.625rem;
+    }
+    section.feature_wrap.second .hisoty_wrap .box_history .inner .text_area .img_area img {
+        max-width: 100%;
+        width: 100%;
+    }
+    section.feature_wrap.second .hisoty_wrap .box_history strong.title {
+        font-size: 1.666rem;
+        position: relative;
+    }
+    section.feature_wrap.second .hisoty_wrap .box_history strong.sub_title {
+        font-size: 1.25rem !important;
+        margin-bottom: 0.416rem;
+    }
+    section.feature_wrap.second .hisoty_wrap .box_history .inner .text_area strong.year_title {
+        font-size: 1rem;
+        margin-top: 2.0833rem;
+        margin-bottom: 0.625rem;
+    }
+    section.feature_wrap.second .hisoty_wrap .history_world strong.title {
+        display: -webkit-box;
+        display: -moz-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: -moz-flex;
+        display: -o-flex;
+        display: flex;
+        -webkit-align-items: center;
+        -ms-align-items: center;
+        -moz-align-items: center;
+        -o-align-items: center;
+        -webkit-justify-content: center;
+        -ms-justify-content: center;
+        -moz-justify-content: center;
+        -o-justify-content: center;
+        -ms-flex-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    section.feature_wrap.second .hisoty_wrap .history_world strong.title:before,
+    section.feature_wrap.second .hisoty_wrap .history_world strong.title:after {
+        display: block;
+        content: '';
+        flex: 1;
+        height: 0.5rem;
+        background-repeat: no-repeat;
+        margin-top: -0.25rem;
+        background-size: auto 100%;
+    }
+    section.feature_wrap.second .hisoty_wrap .history_world strong.title:before {
+        margin-right: 2rem;
+        background-image: url(../../img/portal/gameinfo/m_history_title_left_bg.png);
+        background-position: right 50%;
+    }
+    section.feature_wrap.second .hisoty_wrap .history_world strong.title:after {
+        margin-left: 2rem;
+        background-image: url(../../img/portal/gameinfo/m_history_title_right_bg.png);
+        background-position: left 50%;
+    }
+    section.feature_wrap.second .hisoty_wrap .history_world .inner .text_area {
+        height: 22rem;
+    }
+    section.feature_wrap.second .hisoty_wrap .history_world .text_area strong {
+        font-size: 1rem;
+    }
+    section.feature_wrap.third {
+        position: relative;
+        height: auto;
+        min-height: 54.91rem;
+        padding: 0;
+    }
+    section.feature_wrap.third .label_title {
+        top: 4.166rem;
+        font-size: 1.25rem;
+        margin-bottom: 0.833rem;
+    }
+    section.feature_wrap.third h2 {
+        top: 6.66rem;
+        font-size: 1.875rem;
+    }
+}
+*/
+@media only screen and (max-height: 415px) and (min-width: 415px) and (orientation: landscape) {
+    section.feature_wrap.second .hisoty_wrap .history_world {
+        background-size: contain;
+    }
+}
+
+html:lang(ru-RU) section.feature_wrap.first .visual_wrap .h2_desc br {display:none;}
+html:lang(ru-RU) section.feature_wrap.second .hisoty_wrap .box_history {padding:80px 0 0 29px;}
+html:lang(ru-RU) section.feature_wrap.second .hisoty_wrap .box_history strong.title {font-size:25px;}
+html:lang(ru-RU) section.feature_wrap.second .hisoty_wrap .history_world .inner .text_area br {display:none;}
+@media screen and (max-width: 1024px) {
+    html:lang(ru-RU) section.feature_wrap.first .visual_wrap .h2_desc .mob_block{display:inline;}
+    html:lang(ru-RU) section.feature_wrap.second .hisoty_wrap .box_history {padding:3.33rem 1.66rem 6.25rem}
+    html:lang(ru-RU) section.feature_wrap.second .hisoty_wrap .box_history strong.title {font-size:1.666rem}
+}

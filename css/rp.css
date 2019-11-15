@@ -11,6 +11,14 @@
     height: 820px;
     margin-bottom: 30px;
 }
+.jumbotron.wasteland {
+    background-image: url(../Wasteland/пустоши.jpg);
+    border-radius: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 820px;
+    margin-bottom: 0px;
+}
 .jumbotron.jumbotron-footer {
     background-image: url(image/ruinFoter3.png);
     border-radius: 0;
@@ -51,12 +59,6 @@
 .navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
     color: #fff5b2;
 }
-
-.dropdown-item:hover {
-    color: #fff5b2;
-    background-color: rgba(16, 16, 16, 0);
-}
-
 @media (min-width: 992px){
     .item-navbar-collapse {
         padding-left: 447px;
