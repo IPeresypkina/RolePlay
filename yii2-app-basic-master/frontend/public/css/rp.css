@@ -1,0 +1,306 @@
+.jumbotron {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: #fffdf5;
+}
+.jumbotron.header {
+    background-image: url(image/headr.png);
+    border-radius: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 820px;
+    margin-bottom: 30px;
+}
+.jumbotron.wasteland {
+    background-image: url(../image/Wasteland/пустоши.jpg);
+    border-radius: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 820px;
+    margin-bottom: 0px;
+}
+.jumbotron.jumbotron-footer {
+    background-image: url(image/ruinFoter3.png);
+    border-radius: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 750px;
+    margin-top: 30px;
+    margin-bottom: 0;
+    color: #1e2129;
+}
+
+.world-item {
+    color: black;
+}
+
+.world-item:hover {
+    text-decoration: none;
+    color: black;
+}
+
+.btn {
+
+    width: 265px;
+    height: 75px;
+    line-height: 58px;
+}
+
+.btn-secondary {
+    color: #fff;
+    background-color: #30343e;
+    border-color: #30343e;
+}
+
+<!--верхняя часть -->
+.navbar {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 0rem 1rem;
+}
+
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
+    color: #fff5b2;
+}
+@media (min-width: 992px){
+    .item-navbar-collapse {
+        padding-left: 447px;
+    }
+    .item-nav-link {
+        padding-left: 40px;
+    }
+}
+
+.dropdown-item {
+    color: rgba(255,255,255,.5);
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 10rem;
+    padding: .5rem 0;
+    margin: .46rem 0 0;
+    font-size: 1rem;
+    color: #212529;
+    text-align: left;
+    list-style: none;
+    background-color: rgba(16, 16, 16, 0.95);
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: 0.2rem;
+}
+
+@media (max-width: 991px){
+    .dropdown-menu {
+        background-color: rgba(0,0,0,0);
+        border: none;
+    }
+}
+
+
+.bg-dark {
+    background-color: #424951;
+}
+
+.header {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    position: static;
+    width: 100%;
+    z-index: 1050;
+    background: transparent; }
+.header nav {
+    width: 100%; }
+
+.header-sticky {
+    -webkit-transform: translate(0, 0);
+    -moz-transform: translate(0, 0);
+    transform: translate(0, 0);
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+    -webkit-transition-delay: 0s;
+    -moz-transition-delay: 0s;
+    transition-delay: 0s;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: auto;
+    left: 0; }
+
+.header-dark {
+    background: rgba(16, 16, 16, 0.95);
+}
+
+
+<!--Карточки с мирами -->
+.card {
+    width: 100%;
+    border-radius: 0;
+}
+.hover-shadow-lg:hover {
+    -webkit-box-shadow: 0 1rem 3rem rgba(31, 45, 61, 0.300);
+    box-shadow: 0 1rem 3rem rgba(31, 45, 61, 0.300);
+    transition: all .2s ease-in-out;
+}
+.translate-y-n10, .hover-translate-y-n10:hover {
+    -webkit-transform: translateY(-15px);
+    -ms-transform: translateY(-15px);
+    transform: translateY(-15px);
+    transition: all .2s ease-in-out;
+}
+.box {
+    padding: initial;
+}
+.garinets_box{
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-bottom: 1.5rem;
+    padding-top: 1.5rem;
+}
+
+footer.footer_wrap {
+    position: relative;
+    padding-bottom: 30px;
+    background: rgba(16, 16, 16, 0.95);
+    color: rgba(255,255,255,.5);
+
+}
+footer.footer_wrap .sns_area {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: -moz-flex;
+    display: -o-flex;
+    display: flex;
+    -webkit-align-items: center;
+    -ms-align-items: center;
+    -moz-align-items: center;
+    -o-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    -ms-justify-content: center;
+    -moz-justify-content: center;
+    -o-justify-content: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    height: 135px;
+    box-sizing: border-box;
+    background-color: #30343e;
+}
+
+footer.footer_wrap .sns_area .btn_sns {
+    position: relative;
+    display: inline-block;
+    width: 75px;
+    height: 75px;
+    margin: 0 20px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+    font-size: 0;
+    transition: background .35s;
+}
+
+.footerP {
+    color: #eee6ed;
+    margin-bottom: .3rem;
+    font-size: 1.2rem;
+}
+
+h2.line {
+    border-bottom: 2px solid #555;
+}
+
+
+<!--кнопки соц сетей -->
+.socialIcons {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: inline-block;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    height: 90px;
+    text-align: center;
+}
+.socialIcons li {
+    display: inline-block;
+    margin: auto 10px;
+}
+.socialIcons li a {
+    text-align: center;
+    display: inline-block;
+    font-size: 4rem;
+    height: 100px;
+    width: 100px;
+    line-height: 100px;
+    color: #fff5b2;
+    transition: all .5s ease;
+    transform-origin: left;
+    transform: rotateY(-30deg);
+    text-shadow: 10px 0px 1px #131313, 10px 0px 1px #070707, 10px 0px 1px black, 10px 0px 1px black;
+}
+.socialIcons li a:hover {
+    color: #202020;
+    transform: rotate(0deg);
+    text-shadow: 0px 0px 1px #131313, 0px 0px 1px #070707, 0px 0px 1px black, 0px 0px 1px black;
+}
+
+@media (min-width: 1200px) {
+    .col-lg-4 {
+        -ms-flex: 0 0 33.333333%;
+    }
+    .col-sm-6 {
+        -ms-flex: 0 0 50%;
+    }
+}
+@media (min-width: 992px){
+    .col-lg-4 {
+        -ms-flex: 0 0 33.333333%;
+        flex: 0 0 33.333333%;
+        max-width: min-content;
+    }
+}
+@media (min-width: 576px){
+    .col-sm-6 {
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: min-content;
+    }
+}
+@media (min-width: 500px){
+    .col-sm-6 {
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: min-content;
+    }
+}
+
+
+
+
+@media (min-width: 768px){
+    .col-md-6 {
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
