@@ -1,13 +1,15 @@
 <template>
     <section data-sec="section02" class="feature_wrapF second">
         <span class="label_title">Путешествие в достижении жизненной цели</span>
-        <h2>Мир Эсвас</h2>
+        <div id="fantasyWorld">
+            <h2>Мир Эсвас</h2>
+        </div>
         <div class="hisoty_wrap">
             <div class="tab_nav_area">
                 <ul class="tab_history">
-                    <li class=""><a v-on:click="show(1)">История Эсваса</a></li>
-                    <li class=""><a v-on:click="show(2)">Мировозрения</a></li>
-                    <li class=""><a v-on:click="show(3)">Народы</a></li>
+                    <li class=""><a v-on:click="show(1)" id="historyF">История Эсваса</a></li>
+                    <li class=""><a v-on:click="show(2)" id="worldviewF">Мировозрения</a></li>
+                    <li class=""><a v-on:click="show(3)" id="nationsF">Народы</a></li>
                 </ul>
             </div>
             <div class="tab_container" >
@@ -21,7 +23,7 @@
                     </div>
                 </div>
 
-                <div class="tab_cont " id="Worldviews">
+                <div class="tab_cont " id="worldview">
                     <div class="box_history box_calpheon">
                         <div class="inner">
                             <strong class="title">Мировозрения</strong>
@@ -255,17 +257,17 @@
                 switch (shown) {
                     case 1:
                         document.getElementById("history").style.display = "block";
-                        document.getElementById("Worldviews").style.display = "none";
+                        document.getElementById("worldview").style.display = "none";
                         document.getElementById("nations").style.display = "none";
                         break;
                     case 2:
                         document.getElementById("history").style.display = "none";
-                        document.getElementById("Worldviews").style.display = "block";
+                        document.getElementById("worldview").style.display = "block";
                         document.getElementById("nations").style.display = "none";
                         break;
                     case 3:
                         document.getElementById("history").style.display = "none";
-                        document.getElementById("Worldviews").style.display = "none";
+                        document.getElementById("worldview").style.display = "none";
                         document.getElementById("nations").style.display = "block";
                         break;
                 }

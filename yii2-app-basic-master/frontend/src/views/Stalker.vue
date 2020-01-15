@@ -1,14 +1,14 @@
 <template>
     <section data-sec="section02" class="feature_wrapS second">
         <span class="label_title">Дойди до центра зоны</span>
-        <h2>Мир S.T.A.L.K.E.R.</h2>
+        <h2 id="stalkerWorld">Мир S.T.A.L.K.E.R.</h2>
         <div class="hisoty_wrap">
             <div class="tab_nav_area">
                 <ul class="tab_history">
-                    <li class=""><a v-on:click="show(1)">История</a></li>
-                    <li class=""><a v-on:click="show(2)">Группировки</a></li>
-                    <li class=""><a v-on:click="show(3)">Аномалии</a></li>
-                    <li class=""><a v-on:click="show(4)">Мутанты</a></li>
+                    <li class=""><a v-on:click="show(1)" id="historyS">История</a></li>
+                    <li class=""><a v-on:click="show(2)" id="groupS">Группировки</a></li>
+                    <li class=""><a v-on:click="show(3)" id="anomaliesS">Аномалии</a></li>
+                    <li class=""><a v-on:click="show(4)" id="mutantsS">Мутанты</a></li>
                 </ul>
             </div>
             <div class="tab_container">

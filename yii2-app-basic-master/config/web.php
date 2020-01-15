@@ -54,6 +54,7 @@ $config = [
 
                 'GET api/plots/<gameId:\d+>' => 'api/plot/plots',
                 'GET api/sessions/<plotId:\d+>' => 'api/session/sessions',
+                'GET api/calendar/<sessionId:\d+>' => 'api/date/calendar',
 
                 'POST api/<controller>/record' => 'api/<controller>/record',
                 'GET api/<controller>/<id:\d+>' => 'api/<controller>/view',
@@ -67,7 +68,8 @@ $config = [
                 ],
 
                 'GET api/<controller>/plots/<gameId:\d+>' => 'api/<controller>/plots',
-                'GET api/<controller>/sessions/<plotId:\d+>' => 'api/<controller>/sessions'
+                'GET api/<controller>/sessions/<plotId:\d+>' => 'api/<controller>/sessions',
+                'GET api/<controller>/dates/<sessionId:\d+>' => 'api/<controller>/dates'
             ],
 
         ],

@@ -1,7 +1,7 @@
 <template>
     <section data-sec="section02" class="feature_wrapW second">
         <span class="label_title">Выжить любой ценой</span>
-        <h2>Мир Пустоши</h2>
+        <h2 id="wastelandWorld">Мир Пустоши</h2>
         <div class="hisoty_wrap">
             <div class="tab_container" >
                 <div class="tab_cont active">

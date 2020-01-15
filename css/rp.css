@@ -30,10 +30,20 @@
     color: #1e2129;
 }
 
+.world-item {
+    color: black;
+}
+
+.world-item:hover {
+    text-decoration: none;
+    color: black;
+}
+
 .btn {
 
     width: 265px;
     height: 75px;
+    line-height: 58px;
 }
 
 .btn-secondary {

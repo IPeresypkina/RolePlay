@@ -21,7 +21,7 @@ class RecordForm extends Model
     public function rules()
     {
         return [
-            [['firstName', 'secondName', 'phone', 'email', 'calendarId'], 'required'],
+            [['firstName', 'secondName', 'phone', 'email'], 'required'],
             [['message'], 'string', 'max' => 128],
             ['email', 'email'],
         ];
@@ -39,7 +39,6 @@ class RecordForm extends Model
         $user->email = $this->email;
         $user->message = $this->message;
         $user->save();
-        var_dump($user->getErrors());
 
         $record = new Record();
         $record->usersId = $user->id;

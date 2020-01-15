@@ -4,7 +4,7 @@
       <div class="container">
         <div class="row">
           <div class="navbar navbar-expand-lg navbar-dark">
-            <a href="/">
+            <a href="/" id="indexHeader">
               <img src="../public/image/Image/logo44.png" height="30" width="160" class="d-inline-block align-top" alt=""/>
             </a>
             <!--<a href="index.html" class="navbar-brand order-1 order-lg-2"><img src="assets/images/logo.svg" alt="Logo"></a>-->
@@ -17,7 +17,7 @@
               <ul class="navbar-nav mr-auto">
                 <li class="nav-item dropdown">
                   <router-link to="/fantasy">
-                    <a class="nav-link  "  role="button" aria-haspopup="true"
+                    <a class="nav-link" id="fantasyHeader"  role="button" aria-haspopup="true"
                        aria-expanded="false">
                       Эсвас
                     </a>
@@ -26,8 +26,7 @@
                 </li>
                 <li class="nav-item dropdown item-nav-link">
                   <router-link to="/wasteland">
-                  <a class="nav-link  " href="views/Wasteland.vue" role="button" aria-haspopup="true"
-
+                  <a class="nav-link" id="wastelandHeader" href="views/Wasteland.vue" role="button" aria-haspopup="true"
                      aria-expanded="false">
                     Пустоши
                   </a>
@@ -35,15 +34,14 @@
                 </li>
                 <li class="nav-item dropdown item-nav-link">
                   <router-link to="/stalker">
-                  <a class="nav-link " href="views/Stalker.vue" i role="button" aria-haspopup="true"
-                     aria-expanded="false">
+                  <a class="nav-link" id="stalkerHeader" href="views/Stalker.vue" role="button" aria-haspopup="true" aria-expanded="false">
                     S.T.A.L.K.E.R.
                   </a>
                   </router-link>
                 </li>
                 <li class="nav-item item-nav-link">
                   <router-link to="/record">
-                  <a class="nav-link" href="views/Record.vue">
+                  <a class="nav-link" href="views/Record.vue" id="recordHeader">
                     Запись
                   </a>
                   </router-link>
@@ -63,10 +61,10 @@
     <footer class="footer_wrap">
       <div class="sns_area">
         <ul class="socialIcons">
-          <li><a class="vk" href="#"><i class="fa fa-vk"></i></a></li>
-          <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
-          <li><a class="instagram" href="#"><i class="fa fa-instagram"></i></a></li>
-          <li><a class="google" href="#"><i class="fa fa-google"></i></a></li>
+          <li><a class="vk" href="https://vk.com/iracult"><i class="fa fa-vk"></i></a></li>
+          <li><a class="twitter" href="https://vk.com/iracult"><i class="fa fa-twitter"></i></a></li>
+          <li><a class="instagram" href="https://www.instagram.com/_iracult/"><i class="fa fa-instagram"></i></a></li>
+          <li><a class="google" href="https://mail.google.com/mail/u/0/#inbox?compose=new"><i class="fa fa-google"></i></a></li>
         </ul>
       </div>
       <p class="text-center" style="margin-top: 30px; margin-bottom: 0">© 2019 Company, Inc.</p>

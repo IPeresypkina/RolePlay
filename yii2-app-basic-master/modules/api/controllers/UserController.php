@@ -28,12 +28,11 @@ class UserController extends BaseController
         $model = new RecordForm();
         $model->load(Yii::$app->request->getBodyParams(), '');
         //$model->load(\Yii::$app->request->post(), '');
-
         if ($model->validate()) {
             $model->record();
         }
 
-        return $model;
+        return ['status'=>'success'];
     }
 
     /**

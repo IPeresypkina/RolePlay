@@ -1,10 +1,8 @@
 <template>
-
-    <div>
-
+<div>
     <section class="jumbotron header">
         <div class="container">
-            <div class="py-5 text-center" style="padding-top: 60px">
+            <div class="py-5 text-center" style="padding-top: 60px" :id="logo" >
                 <img src="/image/Image/logo4.png" height="200" width="500"/>
             </div>
         </div>
@@ -13,11 +11,9 @@
     <!--Три кнопки под каждый мир-->
     <div class="container">
         <div class="row">
-
-            <div class="col-lg-4 col-sm-6" >
+            <div class="col-lg-4 col-sm-6">
                 <router-link to="/fantasy">
-                   class="card text-center hover-shadow-lg hover-translate-y-n10 world-item">
-
+                    <div class="card text-center hover-shadow-lg hover-translate-y-n10 world-item">
                     <div class="box">
                         <img src="/image/Image/fantasy2.jpg" height="200" width="348"/>
                     </div>
@@ -28,6 +24,7 @@
                             Спасайте драконов из башен от неугомонных принцесс и перепейте всех завсегдатев его таверн.
                             Судьба этого мира только в ваших руках.
                         </p>
+                    </div>
                     </div>
                 </router-link>
             </div>
@@ -83,13 +80,11 @@
             </div>
             <h4 class="lead">Приглашаем Вас в огромный мир настольных ролевых игр!</h4>
             <router-link to="/record">
-            <a class="btn btn-secondary"> <p class="footerP">Запись</p></a>
+                    <a class="btn btn-secondary"> <p class="footerP">Запись</p></a>
             </router-link>
         </div>
     </section>
-
-    </div>
-
+</div>
 </template>
 
 <script>
